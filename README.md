@@ -24,7 +24,7 @@ Dentro de él, se creó un nuevo archivo tipo py (Python) que es el que fue el q
 
 + nano Lab2.py
 
-Después del paso anterior, se tuvo en cuenta una serie de librerías que son necesarias importar para lograr el funcionamiento correcto de Pepper. La librerías que se emplearon son las siguientes: 
+Después del paso anterior, se tuvo en cuenta una serie de librerías que son necesarias importar para lograr el funcionamiento correcto de Pepper. La librerías que se emplearon son las siguientes: </br>
 
 + import qi
 + import argparse
@@ -36,7 +36,7 @@ Después del paso anterior, se tuvo en cuenta una serie de librerías que son ne
 + import webbrowser
 + import os
 
-Luego de esto, se realizó la conexión con Pepper empleando los siguientes comandos: 
+Luego de esto, se realizó la conexión con Pepper empleando los siguientes comandos: </br>
 
 + session = qi.Session()
 + session.connect("tcp://192.168.0.104:9559")
