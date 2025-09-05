@@ -192,7 +192,7 @@ Basicamente la coreografía que se logró fue mediante lo explicado anteriorment
 				
        	  		a = 0 
 
-   El resultado obtenido se puede visualizar en el siguiente link:
+   + El resultado obtenido se puede visualizar en el siguiente link:
 
    https://www.youtube.com/watch?v=fJzGaVWrneo&t=3s
    
