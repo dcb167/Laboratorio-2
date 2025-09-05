@@ -36,6 +36,16 @@ Después del paso anterior, se tuvo en cuenta una serie de librerías que son ne
 + import webbrowser
 + import os
 
+Luego de esto, se realizó la conexión con Pepper empleando los siguientes comandos: 
+
++ session = qi.Session()
++ session.connect("tcp://192.168.0.104:9559")
+
+
+
+
+
+
 
 
 
