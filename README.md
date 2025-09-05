@@ -8,3 +8,8 @@ Para realizar una coreografía con Pepper es necesario seguir una serie de pasos
 Inmediatamente el terminal pedirá una contraseña de acceso se debe escribir:
 + nao
 
+Lo siguiente a realizar es ingresar a los directorios de Pepper. Para ello, se debe digitar el siguiente comando:</br>
+
++cd
+
+
