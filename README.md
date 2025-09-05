@@ -194,7 +194,7 @@ Basicamente la coreografía que se logró fue mediante lo explicado anteriorment
 
 + El resultado obtenido se puede visualizar en el siguiente link:</br>
 
-https://www.youtube.com/watch?v=fJzGaVWrneo&t=3s
+  https://www.youtube.com/watch?v=fJzGaVWrneo&t=3s
    
 
 
