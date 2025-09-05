@@ -41,11 +41,23 @@ Luego de esto, se realizó la conexión con Pepper empleando los siguientes coma
 + session = qi.Session()
 + session.connect("tcp://192.168.0.104:9559")
 
-Para lograr el resultado obtenido en la Coreografía, fue esencial el uso de tres invocaciones. Las cuales serán mostradas enseguida: 
+Para lograr el resultado obtenido en la Coreografía, fue esencial el uso de tres invocaciones. Las cuales serán mostradas enseguida: </br>
 
 + animated_speech_service = session.service("ALAnimatedSpeech")
 + motion_service = session.service("ALMotion")
 + tablet_service=session.service("ALTabletService")
+
+Para mostrar una imagen, se debe emplear la siguiente línea de instrucción: 
+
++ tablet_service.showImage("http://198.18.0.1/apps/usta/Imagen3.jpg")
+
+Para lograr el movimiento del Robot, se debe usar lo siguiente:
+
++ motion_service.setAngles(["LShoulderPitch","RShoulderPitch"], [0.0, 0.0], 0.5)
+
+De lo anterior, es importante mencionar que lo que se encuentra en comillas son las partes del cuerpo de Pepper. Por ende, ahí se debe poner la parte del cuerpo que se desea mover. En el caso anterior, ahí se mueven los hombros. </br>
+
+
 
 
 
