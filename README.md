@@ -12,7 +12,7 @@ Lo siguiente a realizar es ingresar a los directorios de Pepper. Para ello, se d
 
 + cd
 
-Para visualizar los directorios que hay dentro de Pepper se de digitar el siguiente comando:</br>
+Para visualizar los directorios que hay dentro de Pepper es necesario digitar el siguiente comando:</br>
 
 + ls
 
