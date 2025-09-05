@@ -70,10 +70,9 @@ Dicho esto, es necesario tener en cuenta los tiempos para que en el coreografía
 
 + time.sleep(164)
 
-Basicamente la coreografía que se logró fue mediante lo explicado anteriormente. Ahora, se presentará el resultado del código de Python completo: 
+Basicamente la coreografía que se logró fue mediante lo explicado anteriormente. Ahora, se presentará el resultado del código de Python completo: </br>
 
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
+
 import qi
 import argparse
 import sys
