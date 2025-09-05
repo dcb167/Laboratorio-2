@@ -91,106 +91,106 @@ Basicamente la coreografía que se logró fue mediante lo explicado anteriorment
 
          a = 1
          while a == 1:
-          tablet_service.showImage("http://198.18.0.1/apps/usta/Imagen3.jpg")
+				tablet_service.showImage("http://198.18.0.1/apps/usta/Imagen3.jpg")
     
-	      speed=0.5
-    	  animated_speech_service.say("Hola Soy Pepper ")
-    	  time.sleep(2)
+				speed=0.5
+    	  		animated_speech_service.say("Hola Soy Pepper ")
+    	  		time.sleep(2)
     
-    	  motion_service.setAngles(["LShoulderPitch","RShoulderPitch"], [0.0, 0.0], 0.5)
-    	  time.sleep(1)
-          motion_service.setAngles(["LShoulderPitch","RShoulderPitch"], [0.0, 0.0], 0.5)
-          time.sleep(2)
-          motion_service.setAngles(["LElbowRoll","RElbowRoll"], [-1.0, 1.0], 0.5)
-          time.sleep(2)
-          motion_service.setAngles(["LElbowRoll","RElbowRoll"], [-0.3, 0.3], 0.5)
-          time.sleep(1)
+   			 	motion_service.setAngles(["LShoulderPitch","RShoulderPitch"], [0.0, 0.0], 0.5)
+    	  		time.sleep(1)
+          		motion_service.setAngles(["LShoulderPitch","RShoulderPitch"], [0.0, 0.0], 0.5)
+          		time.sleep(2)
+          		motion_service.setAngles(["LElbowRoll","RElbowRoll"], [-1.0, 1.0], 0.5)
+          		time.sleep(2)
+          		motion_service.setAngles(["LElbowRoll","RElbowRoll"], [-0.3, 0.3], 0.5)
+          		time.sleep(1)
 
-    	  names = ["RShoulderPitch", "RShoulderRoll", "RElbowYaw", "RElbowRoll"]
-    	  angles = [math.radians(-40), math.radians(-10), math.radians(60), math.radians(80)]
-    	  motion_service.setAngles(names, angles, speed)
-    	  time.sleep(1.5)
+    	  		names = ["RShoulderPitch", "RShoulderRoll", "RElbowYaw", "RElbowRoll"]
+    	  		angles = [math.radians(-40), math.radians(-10), math.radians(60), math.radians(80)]
+    	  		motion_service.setAngles(names, angles, speed)
+    	  		time.sleep(1.5)
         	
-          tablet_service.showImage("http://198.18.0.1/apps/usta/Imagen2.jpg")
-          animated_speech_service.say("Les voy a hablar sobre algunas operaciones básicas que puedo realizar")
-          time.sleep(2)
+          		tablet_service.showImage("http://198.18.0.1/apps/usta/Imagen2.jpg")
+          		animated_speech_service.say("Les voy a hablar sobre algunas operaciones básicas que puedo realizar")
+          		time.sleep(2)
  
-          motion_service.setAngles(["LShoulderPitch","RShoulderPitch"], [0.0, 0.0], 0.5)
-          time.sleep(1)
-          motion_service.setAngles(["LElbowRoll","RElbowRoll"], [-1.0, 1.0], 0.5)
-          time.sleep(2)
-          motion_service.setAngles(["LElbowRoll","RElbowRoll"], [-0.3, 0.3], 0.5)
-          time.sleep(1)
+          		motion_service.setAngles(["LShoulderPitch","RShoulderPitch"], [0.0, 0.0], 0.5)
+          		time.sleep(1)
+          		motion_service.setAngles(["LElbowRoll","RElbowRoll"], [-1.0, 1.0], 0.5)
+          		time.sleep(2)
+          		motion_service.setAngles(["LElbowRoll","RElbowRoll"], [-0.3, 0.3], 0.5)
+          		time.sleep(1)
 
-          names = ["RShoulderPitch", "RShoulderRoll", "RElbowYaw", "RElbowRoll"]
-          angles = [math.radians(-40), math.radians(-10), math.radians(60), math.radians(80)]
-          motion_service.setAngles(names, angles, speed)
-          time.sleep(1.5)
+          		names = ["RShoulderPitch", "RShoulderRoll", "RElbowYaw", "RElbowRoll"]
+          		angles = [math.radians(-40), math.radians(-10), math.radians(60), math.radians(80)]
+          		motion_service.setAngles(names, angles, speed)
+          		time.sleep(1.5)
 
-          motion_service.setAngles(["LShoulderPitch","RShoulderPitch"], [0.0, 0.0], 0.5)
-          time.sleep(1)
-          motion_service.setAngles(["LElbowRoll","RElbowRoll"], [-1.0, 1.0], 0.5)
-          time.sleep(2)
-          motion_service.setAngles(["LElbowRoll","RElbowRoll"], [-0.3, 0.3], 0.5)
-          time.sleep(1)
+          		motion_service.setAngles(["LShoulderPitch","RShoulderPitch"], [0.0, 0.0], 0.5)
+          		time.sleep(1)
+          		motion_service.setAngles(["LElbowRoll","RElbowRoll"], [-1.0, 1.0], 0.5)
+          		time.sleep(2)
+          		motion_service.setAngles(["LElbowRoll","RElbowRoll"], [-0.3, 0.3], 0.5)
+          		time.sleep(1)
 
-          animated_speech_service.say("Imaginemos un día de Gym: Al primero, puedes levantar 10 kilogramos en Press de Banca")
-          time.sleep(2)
-          animated_speech_service.say("Al segundo,  puedes levantar 5  kilogramos más ")
-          time.sleep(2)
-          animated_speech_service.say("La pregunta sería ¿Cuánto he progresado en el Gym?")
-          time.sleep(2)
-	      num_1="15"
-	      num_2="kilogramos"
-	      mensaje= num_1+num_2
+          		animated_speech_service.say("Imaginemos un día de Gym: Al primero, puedes levantar 10 kilogramos en Press de Banca")
+          		time.sleep(2)
+          		animated_speech_service.say("Al segundo,  puedes levantar 5  kilogramos más ")
+          		time.sleep(2)
+          		animated_speech_service.say("La pregunta sería ¿Cuánto he progresado en el Gym?")
+          		time.sleep(2)
+	      		num_1="15"
+	      		num_2="kilogramos"
+	      		mensaje= num_1+num_2
 		
-          animated_speech_service.say("Felicidades has progresado en un total de:"+mensaje)
-          time.sleep(2)
+          		animated_speech_service.say("Felicidades has progresado en un total de:"+mensaje)
+          		time.sleep(2)
 
-          tablet_service.showImage("http://198.18.0.1/apps/usta/Imagen3.jpg")
+          		tablet_service.showImage("http://198.18.0.1/apps/usta/Imagen3.jpg")
 
         
-	      animated_speech_service.say("¡Que tal si vemos un video de la técnica correcta del Press de Banca!")
-          time.sleep(2)
+	      		animated_speech_service.say("¡Que tal si vemos un video de la técnica correcta del Press de Banca!")
+          		time.sleep(2)
         
-	      animated_speech_service.say("Vamos a verlo")
-          time.sleep(2)
+	   			animated_speech_service.say("Vamos a verlo")
+          		time.sleep(2)
         
-          tablet_service.enableWifi()
-          tablet_service.playVideo("http://198.18.0.1/apps/usta/Banca.mp4")
-	      time.sleep(164)
+          		tablet_service.enableWifi()
+          		tablet_service.playVideo("http://198.18.0.1/apps/usta/Banca.mp4")
+	      		time.sleep(164)
 	
-          tablet_service.showImage("http://198.18.0.1/apps/usta/Imagen5.png")
-          time.sleep(3)
+          		tablet_service.showImage("http://198.18.0.1/apps/usta/Imagen5.png")
+          		time.sleep(3)
 
-          animated_speech_service.say("Ahora vamos a hablar un poco sobre nutrición")
-          time.sleep(2)
+          		animated_speech_service.say("Ahora vamos a hablar un poco sobre nutrición")
+          		time.sleep(2)
 	
-          tablet_service.showImage("http://198.18.0.1/apps/usta/Imagen5.png")
-          time.sleep(3)
+          		tablet_service.showImage("http://198.18.0.1/apps/usta/Imagen5.png")
+          		time.sleep(3)
 
-          motion_service.setAngles(["LShoulderPitch","RShoulderPitch"], [0.0, 0.0], 0.5)
-          time.sleep(1)
-          motion_service.setAngles(["LElbowRoll","RElbowRoll"], [-1.0, 1.0], 0.5)
-          time.sleep(2)
-          motion_service.setAngles(["LElbowRoll","RElbowRoll"], [-0.3, 0.3], 0.5)
-          time.sleep(1) 
+          		motion_service.setAngles(["LShoulderPitch","RShoulderPitch"], [0.0, 0.0], 0.5)
+          		time.sleep(1)
+          		motion_service.setAngles(["LElbowRoll","RElbowRoll"], [-1.0, 1.0], 0.5)
+          		time.sleep(2)
+          		motion_service.setAngles(["LElbowRoll","RElbowRoll"], [-0.3, 0.3], 0.5)
+          		time.sleep(1) 
 	
-          animated_speech_service.say("La nutrición se le conoce como la ciencia y el proceso  mediante el cual los organismos obtienen y utilizan los nutrientes de los alimentos para             crecer,mantenerse y obtener energía." )
-          time.sleep(2)
+          		animated_speech_service.say("La nutrición se le conoce como la ciencia y el proceso  mediante el cual los organismos obtienen y utilizan los nutrientes de los alimentos 				para crecer,mantenerse y obtener energía." )
+          		time.sleep(2)
 	
-          animated_speech_service.say("Eso fue todo por esta sesión informativa")
-          time.sleep(2)
-          animated_speech_service.say("Gracias, nos vemos en una próxima")
-          time.sleep(2)
+          		animated_speech_service.say("Eso fue todo por esta sesión informativa")
+          		time.sleep(2)
+          		animated_speech_service.say("Gracias, nos vemos en una próxima")
+          		time.sleep(2)
 
-          tablet_service.showImage("http://198.18.0.1/apps/usta/Imagen6.jpeg")
-          time.sleep(3)
+          		tablet_service.showImage("http://198.18.0.1/apps/usta/Imagen6.jpeg")
+          		time.sleep(3)
 	  
-	      tablet_service.showImage("http://198.18.0.1/apps/usta/Imagen3.jpg")
-	      time.sleep(2)
+	      		tablet_service.showImage("http://198.18.0.1/apps/usta/Imagen3.jpg")
+	      		time.sleep(2)
 				
-       	  a = 0 
+       	  		a = 0 
 
 
 
