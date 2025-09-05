@@ -1,4 +1,5 @@
 # Laboratorio-2
+# Elaborado por: Laura Rodriguez y Diana Bernal 
 ## 1. Coreografía con Pepper desde Choregraphe
 
 ## 2. Coreografía con Pepper desde Ubuntu
