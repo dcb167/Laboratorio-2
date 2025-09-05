@@ -10,6 +10,6 @@ Inmediatamente el terminal pedirá una contraseña de acceso se debe escribir:
 
 Lo siguiente a realizar es ingresar a los directorios de Pepper. Para ello, se debe digitar el siguiente comando:</br>
 
-+cd
++ cd
 
 
