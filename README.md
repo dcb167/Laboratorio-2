@@ -57,14 +57,22 @@ Para lograr el movimiento del Robot, se debe usar lo siguiente:
 
 De lo anterior, es importante mencionar que lo que se encuentra en comillas son las partes del cuerpo de Pepper. Por ende, ahí se debe poner la parte del cuerpo que se desea mover. En el caso anterior, ahí se mueven los hombros. </br>
 
-Para lograr que Pepper hable, se debe usar el siguiente comando: </br>
+Por otro lado para que Pepper hable, se debe usar el siguiente comando: </br>
 
 + animated_speech_service.say("Hola Soy Pepper ")
 
-Para que Pepper muestre un video en la Tablet , se debe usar las siguientes líneas de código: </br>
+En el caso de un video en la Tablet , se debe usar las siguientes líneas de código: </br>
 
 + tablet_service.enableWifi()
 + tablet_service.playVideo("http://198.18.0.1/apps/usta/Banca.mp4")
+
+Dicho esto, es necesario tener en cuenta los tiempos para que en el coreografía halla una sincronía y empiece a tomar forma la presentación de Pepper. El comando para lograrlo es el siguiente: </br>
+
++ time.sleep(164)
+
+
+
+
 
 
 
