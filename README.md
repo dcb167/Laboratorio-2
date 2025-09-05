@@ -16,11 +16,11 @@ Para visualizar los directorios que hay dentro de Pepper es necesario digitar el
 
 + ls
 
-En nuestro caso, nosotros ingresamos a uno llamado Presentaciones con el siguiente comando:</br>
+En nuestro caso, se ingresó a uno llamado "Presentaciones" con el siguiente comando:</br>
 
 + cd presentaciones/
 
-Dentro de él, creamos un nuevo archivo tipo py (Python) que es el que fue el que permitió  que se realizará código con Lenguaje Python. Para ello, se empleo la siguiente línea de instrucción: </br>
+Dentro de él, se creó un nuevo archivo tipo py (Python) que es el que fue el que permitió  que se realizara código con Lenguaje Python. Para ello, se empleó la siguiente línea de instrucción: </br>
 
 + nano Lab2.py
 
