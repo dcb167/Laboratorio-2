@@ -73,24 +73,24 @@ Dicho esto, es necesario tener en cuenta los tiempos para que en el coreografía
 Basicamente la coreografía que se logró fue mediante lo explicado anteriormente. Ahora, se presentará el resultado del código de Python completo: </br>
 
 
-import qi
-import argparse
-import sys
-import almath
-import math
-import motion
-import time
-import webbrowser
-import os
+         import qi
+         import argparse
+         import sys
+         import almath
+         import math
+         import motion
+         import time
+         import webbrowser
+         import os
 
-session = qi.Session()
-session.connect("tcp://192.168.0.104:9559")
-animated_speech_service = session.service("ALAnimatedSpeech")
-motion_service = session.service("ALMotion")
-tablet_service=session.service("ALTabletService")
+         session = qi.Session()
+         session.connect("tcp://192.168.0.104:9559")
+         animated_speech_service = session.service("ALAnimatedSpeech")
+         motion_service = session.service("ALMotion")
+         tablet_service=session.service("ALTabletService")
 
-a = 1
-while a == 1:
+         a = 1
+         while a == 1:
           tablet_service.showImage("http://198.18.0.1/apps/usta/Imagen3.jpg")
     
 	      speed=0.5
