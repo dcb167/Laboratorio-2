@@ -57,6 +57,14 @@ Para lograr el movimiento del Robot, se debe usar lo siguiente:
 
 De lo anterior, es importante mencionar que lo que se encuentra en comillas son las partes del cuerpo de Pepper. Por ende, ahí se debe poner la parte del cuerpo que se desea mover. En el caso anterior, ahí se mueven los hombros. </br>
 
+Para que Pepper hable se debe usar el siguiente comando: </br>
+
++ animated_speech_service.say("Hola Soy Pepper ")
+
+
+
+
+
 
 
 
