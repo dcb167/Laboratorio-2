@@ -1,4 +1,4 @@
 # Laboratorio-2
-## Punto 1
+## 1. Coreografía con Pepper desde Choregraphe
 
-## Coreografía con Pepper desde Ubuntu
+## 2. Coreografía con Pepper desde Ubuntu
