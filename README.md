@@ -41,6 +41,14 @@ Luego de esto, se realizó la conexión con Pepper empleando los siguientes coma
 + session = qi.Session()
 + session.connect("tcp://192.168.0.104:9559")
 
+Para lograr el resultado obtenido en la Coreografía, fue esencial el uso de tres invocaciones. Las cuales serán mostradas enseguida: 
+
++ animated_speech_service = session.service("ALAnimatedSpeech")
++ motion_service = session.service("ALMotion")
++ tablet_service=session.service("ALTabletService")
+
+
+
 
 
 
