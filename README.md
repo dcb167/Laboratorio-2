@@ -2,6 +2,21 @@
 ## Elaborado por: Laura Rodríguez y Diana Bernal 
 ## 1. Coreografía con Pepper desde Choregraphe
 Primeramente se realiza la instalacion de Choregraphe
+<img width="866" height="529" alt="image" src="https://github.com/user-attachments/assets/d566e1ec-ac58-49dd-b417-a19fd0745125" />
+
+Ingresamos a Choreographe y veremos lo siguiente
+<img width="1918" height="1015" alt="image" src="https://github.com/user-attachments/assets/f69281b7-ddb1-4ca4-8965-1bbac56e9e21" />
+Importante, conectarse a la misma red de Pepper, osea, "Ciego"</br>
+
+Al conectarse hacemos click en el icono de red y aparecera esta pantalla y deberia aparecer la opción de seleccionar a pepper.
+<img width="888" height="576" alt="image" src="https://github.com/user-attachments/assets/5c4fbc5c-7206-4565-850e-0d20e0c9ab58" />
+
+Luego de seleccionarlo apareceran todas las librerias y archivos que tiene Pepper para realizar movimientos y todo lo que Pepper puede hacer.</br>
+Al visulizar sus carpetas veremos los bloques y podremos hacer las conexiones para crear la coreografia que queramos, como se observa a continuación:
+<img width="1102" height="703" alt="image" src="https://github.com/user-attachments/assets/d71cb368-8a0f-40c2-bd15-65ca59442cae" />
+Le damos click en el icono de ejecutar y Pepper iniciara a moverse tal y como se modifico los bloques en choreographe:</br>
+
+Video Pepper coreografia:</br>
 
 ## 2. Coreografía con Pepper desde Ubuntu
 Para realizar una coreografía con Pepper es necesario seguir una serie de pasos. Lo primero, es el ingreso al terminal de Ubuntu y conectarnos con Pepper. A continuación, se escribirá como son los comandos de conexión con él:</br>
