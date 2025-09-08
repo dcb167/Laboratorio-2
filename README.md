@@ -1,6 +1,7 @@
 # Laboratorio-2
 ## Elaborado por: Laura Rodríguez y Diana Bernal 
 ## 1. Coreografía con Pepper desde Choregraphe
+Primeramente se realiza la instalacion de Choregraphe
 
 ## 2. Coreografía con Pepper desde Ubuntu
 Para realizar una coreografía con Pepper es necesario seguir una serie de pasos. Lo primero, es el ingreso al terminal de Ubuntu y conectarnos con Pepper. A continuación, se escribirá como son los comandos de conexión con él:</br>
